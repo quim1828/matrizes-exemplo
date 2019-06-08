@@ -16,7 +16,8 @@ public class Program {
 				mat[i][j] = random.nextInt(10);
 			}
 		}
-		
+		System.out.println("       Matriz");
+		System.out.println();
 		for ( int i = 0; i < mat.length; i++) {
 			for ( int j = 0; j < mat[i].length; j++ ) {
 				if ( j == mat[i].length-1 ) {
