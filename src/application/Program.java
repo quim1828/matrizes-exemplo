@@ -16,7 +16,7 @@ public class Program {
 				mat[i][j] = random.nextInt(10);
 			}
 		}
-		System.out.println("       Matriz");
+		System.out.println("  Matriz m x n");
 		System.out.println();
 		for ( int i = 0; i < mat.length; i++) {
 			for ( int j = 0; j < mat[i].length; j++ ) {
